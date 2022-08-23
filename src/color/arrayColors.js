@@ -1,0 +1,4 @@
+const arrayColors = ['#76BA99','#876445','#CA955C','#EDDFB3','#100F0F','#0F3D3E','#E2DCC8','#F1F1F1','#003865','#EF5B0C','#D4F6CC','#3CCF4E',
+'#FEFBF6','#A6D1E6','#7F5283','#7F5283','#3D3C42','#2C3333','#395B64','#A5C9CA','#E7F6F2','#293462','#D61C4E','#FEB139','#FFF80A','#FEB139','#513252','#E8AA42','#EB1D36',]
+
+export default arrayColors

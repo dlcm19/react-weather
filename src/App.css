@@ -1,0 +1,91 @@
+body{
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+h1,h2,h3{
+    margin: 0%;
+}
+article{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    border-radius: 20px;
+   
+}
+.App{
+    /* background-color: blue; */
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #5800FF; 
+
+}
+h1,h2{
+    font-size: 50px;
+}
+.containerTwo{
+    display: flex;
+    background-color: #fff;
+    flex-direction: row;
+    padding: 20px;
+    gap: 20px;
+    border-radius: 20px;
+}
+.subcontainertwo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.spanTitle{
+    font-weight: bold;
+    font-size: 25px;
+}
+.spanresult{
+    font-size: larger;
+    font-size: 30px;
+}
+.containerThree{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 50px;
+}
+button{
+    font-size: 25px;
+    border: none;
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: opacity 0.5, transform 0,5;
+    color: #fff;
+}
+button:hover{
+    opacity: 0.7;
+}
+button:active{
+    transform: scale(0.9);
+}
+@media (max-width:480px){
+    .containerTwo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+}
+
